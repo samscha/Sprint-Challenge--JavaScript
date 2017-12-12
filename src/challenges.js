@@ -8,8 +8,8 @@ const each = (elements, cb) => {
 const map = (elements, cb) => {
   const retArr = [];
   each(elements, (element, i) => {
-    retArr[i] = cb(element);
-  })
+    retArr.push(cb(element));
+  });
   return retArr;
 };
 
@@ -42,7 +42,7 @@ const cacheFunction = cb => {
 
 /* ======================== Recursion Practice ============================ */
 const reverseStr = str => {
-  if (str.length == 1) return str;
+  if (str.length === 1) return str;
   return str[str.length - 1] + reverseStr(str.slice(0, str.length - 1));
 };
 
