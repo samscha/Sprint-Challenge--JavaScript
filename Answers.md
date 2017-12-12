@@ -4,7 +4,7 @@
 ## Question 1
 1. Describe some of the differences between `.forEach` & `.map`.
 
-The difference between forEach and map is that map mutates the original Array while forEach creates a new Array and leaves the original Array un-mutated.
+The difference between forEach and map is that forEach mutates the original Array while map creates a new Array and leaves the original Array un-mutated.
 
 ## Question 2
 2. Name five different Types in JavaScript. A Type is something that can represent data. What is so special about Arrays?
