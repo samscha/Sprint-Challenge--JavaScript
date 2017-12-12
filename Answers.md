@@ -16,7 +16,7 @@ Different Types:
 - Object
 - Function
 
-An Array is special because it is actually an Object under-the-hood.
+An Array is special because it is zero-based and preserves order.
 
 ## Question 3
 3. What is closure? Can you code out a quick example of a closure?
